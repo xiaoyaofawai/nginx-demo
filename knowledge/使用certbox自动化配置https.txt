@@ -1,0 +1,5 @@
+linux下安装：
+yum install python2-certboot-nginx
+
+配置：
+certbox --nginx --nginx-server-root=/usr/local/openresty/nginx/config/ -d www.baidu.com
